@@ -1,0 +1,164 @@
+main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eee0ff; 
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    background-color: #666eff; /* Rosa mais forte */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+section {
+    display: flex;
+    margin: 30px 0;
+}
+#sobre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+    height:300px;
+    width: 100vw;
+}
+
+.pipi{
+    display: flex;
+    margin-top: 800px;
+    justify-content: center;
+    align-items: center;
+  display: flex;
+}
+
+h2 {
+    color: #666eff; 
+    font-size: 30px;
+padding: 0px;
+margin-left: 200px;
+margin-top: 10px;
+font-size: 50px;
+text-align: center;
+}
+
+p{
+  
+    display: flex;
+    margin-top: 70px;
+    font-size:x-large;
+    margin-left: 200px;
+}
+
+.projeto1 {
+    background-color: #e6d2ff; /* Rosa muito claro */
+    border: 1px solid #666eff;
+    padding: 80px;
+   margin-top: 300px;
+    border-radius: 8px;
+   width: 100px;
+   margin-right: 700px;
+}
+#projetos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+  
+    width: 100vw;
+    
+}
+.txt{
+
+}
+.isa1{
+    height: 300px;
+    width: 300px;
+    margin-bottom: 600px;
+    border-radius: 50%;
+    margin-left: 150px;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 17px;
+    color: #666eff;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #666eff;
+    font-size: 17px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.isa{
+    border: none;
+    width: 400px;
+    height: 400px;
+}
+
+.titi{
+  font-size: x-large;  
+  color: #666eff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.oioi{
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    background-color: #ccbcff;
+    display: flex;
+    font-size: 45px;
+   justify-content: space-between;
+   width: 90vw;
+  align-items: center;
+
+  }
+
+  li{
+    list-style: none;;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal
+  }
